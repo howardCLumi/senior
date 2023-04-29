@@ -1,23 +1,19 @@
 import "./App.css";
 import React from "react";
-import { Routes, Route } from "react-router-dom";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import {Route, Routes} from "react-router-dom";
 
-import Home from "./pages/Home";
-import Faq from "./pages/Faq";
+import StudentView from "./pages/StudentView";
+import PageLayout from "./components/PageLayout";
 
 function App() {
-  return (
-    <div className="app">
-      <Header />
-      <Routes>
-        <Route exact path="/" element={<Home />}></Route>
-        <Route exact path="/faq" element={<Faq />}></Route>
-      </Routes>
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="app">
+            <PageLayout/>
+            <Routes>
+                <Route exact path="/" elements={<StudentView/>}/>
+            </Routes>
+        </div>
+    );
 }
 
 export default App;
