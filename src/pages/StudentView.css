@@ -1,16 +1,3 @@
-.student__container {
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-}
-.student__filter {
-  box-shadow: 0 5px 10px black;
-  padding: 2%;
-  margin-top: 20px;
-  margin-bottom: 200px;
-}
 .student__graph {
-  box-shadow: 0 5px 10px black;
-  padding: 2%;
-  margin-top: 20px;
-  margin-bottom: 200px;
+  transform: scale(0.75);
 }
