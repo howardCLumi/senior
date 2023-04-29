@@ -11,7 +11,7 @@ const Journey = () => {
           </h2>
           <div className="journey-map__form-real-container">
             <>
-              <div className="journey-map__prompt-question"></div>
+              <p>test</p>
             </>
           </div>
         </div>
