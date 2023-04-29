@@ -19,13 +19,11 @@ export default function LabTabs() {
                 <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                     <TabList onChange={handleChange} aria-label="Tab Navigation">
                         <Tab label="Students" value="1" />
-                        <Tab label="Groups" value="2" />
                     </TabList>
                 </Box>
                 <TabPanel value="1">
                     <StudentView/>
                 </TabPanel>
-                <TabPanel value="2">Item Two</TabPanel>
             </TabContext>
         </Box>
     );
