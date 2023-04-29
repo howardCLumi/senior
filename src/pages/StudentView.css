@@ -1,4 +1,6 @@
 .student__graph {
-  margin-top: -9%;
-  transform: scale(0.75);
+  padding: 2%;
+  transform: scale(1);
+  display: flex;
+  justify-content: center;
 }

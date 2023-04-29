@@ -6,7 +6,7 @@ import graph from "../assets/graph.png";
 const StudentView = () => {
   return (
     <>
-      <Typography variant={"h5"} marginY={"-1%"}>
+      <Typography variant={"h4"} marginY={"-1%"} textAlign={"center"}>
         Journey Map
       </Typography>
       <div className="student__graph">
