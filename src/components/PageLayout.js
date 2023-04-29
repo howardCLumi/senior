@@ -86,7 +86,7 @@ export default function PageLayout() {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" noWrap component="div">
-                        {'Course Name'}
+                        {'CPR E 381'}
                     </Typography>
                 </Toolbar>
             </AppBar>
@@ -109,7 +109,8 @@ export default function PageLayout() {
                     </IconButton>
                 </DrawerHeader>
                 <Divider />
-                <FormGroup>
+
+                <FormGroup sx={{marginLeft: '10%'}}>
                     <FormControlLabel control={<Checkbox />} label="Josh Harvey" />
                     <FormControlLabel control={<Checkbox />} label="Elias Simpson" />
                     <FormControlLabel control={<Checkbox />} label="Colin Hasbrook" />
