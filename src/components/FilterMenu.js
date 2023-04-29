@@ -52,9 +52,12 @@ export default function BasicMenu() {
                         <Typography>Presets</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
-                        <Typography>
-                            Preset 1
-                        </Typography>
+                        <FormGroup>
+                            <FormControlLabel control={<Checkbox />} label="Preset 1" />
+                            <FormControlLabel control={<Checkbox />} label="Preset 2" />
+                            <FormControlLabel control={<Checkbox />} label="Preset 3" />
+                            <FormControlLabel control={<Checkbox />} label="Preset 4" />
+                        </FormGroup>
                     </AccordionDetails>
                 </Accordion>
                 <Accordion>

@@ -6,10 +6,7 @@
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
-<<<<<<< HEAD
-=======
     "@mui/lab": "^5.0.0-alpha.128",
->>>>>>> b98de5a27d85945d7ec6858fd1f2cd8eab05a496
     "@mui/material": "latest",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
