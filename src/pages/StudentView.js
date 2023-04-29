@@ -1,6 +1,7 @@
 import React from "react";
 import "./StudentView.css";
 import { Typography } from "@mui/material";
+import "charts.css";
 
 const StudentView = () => {
   return (
@@ -10,7 +11,7 @@ const StudentView = () => {
           <Typography>filters</Typography>
         </div>
         <div className="student__graph">
-          <table class="charts-css bar">
+          <table class="chart-css bar">
             <caption> 2016 Summer Olympics Medal Table </caption>
 
             <thead>
