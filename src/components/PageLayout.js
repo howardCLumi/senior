@@ -75,8 +75,8 @@ export default function PageLayout() {
     return (
         <Box sx={{ display: 'flex' }}>
             <CssBaseline />
-            <AppBar position="fixed" open={open} color=''>
-                <Toolbar>
+            <AppBar position="fixed" open={open}>
+                <Toolbar color='#757ce8'>
                     <IconButton
                         color="inherit"
                         aria-label="open drawer"
