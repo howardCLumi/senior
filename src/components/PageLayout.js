@@ -12,6 +12,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import NavigationTabs from './NavigationTabs';
+import FilterMenu from './FilterMenu';
 import {Checkbox, FormControlLabel, FormGroup} from "@mui/material";
 
 const drawerWidth = 240;
@@ -85,9 +86,10 @@ export default function PageLayout() {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Typography variant="h6" noWrap component="div">
+                    <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1, alignSelf: 'flex-end', marginBottom: '1%'}}>
                         {'CPR E 381'}
                     </Typography>
+                    <FilterMenu/>
                 </Toolbar>
             </AppBar>
             <Drawer
@@ -109,7 +111,6 @@ export default function PageLayout() {
                     </IconButton>
                 </DrawerHeader>
                 <Divider />
-
                 <FormGroup sx={{marginLeft: '10%'}}>
                     <FormControlLabel control={<Checkbox />} label="Josh Harvey" />
                     <FormControlLabel control={<Checkbox />} label="Elias Simpson" />
