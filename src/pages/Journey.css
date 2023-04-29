@@ -1,10 +1,10 @@
-.faq {
+.journey-map {
   background-color: #e6b89c;
   height: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.faq__parallax {
+.journey-map__parallax {
   min-height: 50px;
   background-image: url("faq-kitty.jpg") no-repeat center 50%;
   background-size: cover;
@@ -13,10 +13,10 @@
   width: 100%;
   z-index: 1;
 }
-.faq__form {
+.journey-map__form {
   margin-top: 100px;
 }
-.faq__header {
+.journey-map__header {
   max-width: 1000px;
   height: 100%;
   margin: 0 auto;
@@ -26,13 +26,13 @@
   align-items: center;
   padding-top: 0.5%;
 }
-.faq__header > a {
+.journey-map__header > a {
   margin-right: 12px;
 }
-.faq__header > h1 {
+.journey-map__header > h1 {
   padding: 100px;
 }
-.faq__container {
+.journey-map__container {
   display: grid;
   min-height: calc(100vh - 50px);
   align-items: center;
@@ -40,7 +40,7 @@
   margin: 0 auto;
   grid-template-columns: 1fr;
 }
-.faq__prompt-question {
+.journey-map__prompt-question {
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
@@ -70,35 +70,35 @@
 .active:after {
   /*content: "\2212";*/
 }
-.faq__cover-letter-real-container {
+.journey-map__cover-letter-real-container {
   box-shadow: 0 5px 20px #c49f88;
   padding: 2%;
   margin-top: 20px;
   margin-bottom: 200px;
 }
-.faq__form-real-container {
+.journey-map__form-real-container {
   box-shadow: 0 5px 20px #c49f88;
   padding: 2%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.faq__resume-real-container {
+.journey-map__resume-real-container {
   box-shadow: 0 5px 20px #c49f88;
   padding: 2%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.faq__resume-container {
+.journey-map__resume-container {
   margin: auto;
   padding: 20px;
   margin-left: 100px;
 }
-.faq__resume {
+.journey-map__resume {
   border-radius: 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
-.faq__cover-letter {
+.journey-map__cover-letter {
   padding-top: 20px;
 }
-.faq__cover-letter-text {
+.journey-map__cover-letter-text {
 }

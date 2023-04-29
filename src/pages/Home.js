@@ -17,7 +17,7 @@ const Home = () => {
               Group sdmay 23-42
             </h1>
             <br></br>
-            <NavLink className="home__body-continue-button" to="/faq">
+            <NavLink className="home__body-continue-button" to="/journey">
               JOURNEY MAP
             </NavLink>
           </div>

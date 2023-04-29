@@ -87,30 +87,18 @@
 }
 .home__bottom-continue-button {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  padding: 15px 450px;
+  padding: 15px 40px;
+  background: hsl(0, 0%, 1%);
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.2em;
-  letter-spacing: 4px;
-  transition: 0.5s;
-  background: #724b69;
-  clip-path: polygon(
-    38% 0,
-    100% 0,
-    100% 34%,
-    100% 100%,
-    100% 100%,
-    0 100%,
-    0 80%,
-    0 0
-  );
+  letter-spacing: 2px;
+  transition: 0.2s ease;
   border-radius: 10px;
-  box-shadow: 100px 500px 20px rgba(0, 0, 0, 0.5);
 }
 .home__bottom-continue-button:hover {
   background: #724b69;

@@ -5,7 +5,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
 import Home from "./pages/Home";
-import Faq from "./pages/Faq";
+import Journey from "./pages/Journey";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
-        <Route exact path="/faq" element={<Faq />}></Route>
+        <Route exact path="/journey" element={<Journey />}></Route>
       </Routes>
       <Footer />
     </div>
